@@ -10,6 +10,8 @@ public class Turret : MonoBehaviour
     public string enemyTag = "Enemy";
     public Transform partToRotate;
     public float turnSpeed = 10f;
+    public float fireRate = 1f;
+    private float fireCountdown = 0f;
     void Start()
     {
         InvokeRepeating("UpdateTarget", 0f, 0.1f);
