@@ -6390,13 +6390,22 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 398969050}
   serializedVersion: 2
+<<<<<<< HEAD
   m_LocalRotation: {x: 0.67683196, y: -0, z: -0, w: 0.73613757}
   m_LocalPosition: {x: 0, y: 375, z: -10}
+=======
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 1, z: -10}
+>>>>>>> parent of fe066bb (Created nodes where you can build a tower upon. Also created hover effect for the nodes)
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
+<<<<<<< HEAD
   m_LocalEulerAnglesHint: {x: 85.193, y: 0, z: 0}
+=======
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+>>>>>>> parent of fe066bb (Created nodes where you can build a tower upon. Also created hover effect for the nodes)
 --- !u!1 &400301800
 GameObject:
   m_ObjectHideFlags: 0
@@ -32707,6 +32716,7 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 3677006829507729715, guid: 36e09194655340348943d1fde2473fad, type: 3}
   m_PrefabInstance: {fileID: 1842048749}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
 --- !u!1 &1842493736
 GameObject:
   m_ObjectHideFlags: 0
@@ -32818,6 +32828,8 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e2a3c27971151754fbf52aa0400f7bac, type: 3}
+=======
+>>>>>>> parent of fe066bb (Created nodes where you can build a tower upon. Also created hover effect for the nodes)
 --- !u!1001 &1844644965
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -39491,4 +39503,7 @@ SceneRoots:
   - {fileID: 135410301}
   - {fileID: 881946262}
   - {fileID: 1107208194}
+<<<<<<< HEAD
   - {fileID: 2130437847}
+=======
+>>>>>>> parent of fe066bb (Created nodes where you can build a tower upon. Also created hover effect for the nodes)
