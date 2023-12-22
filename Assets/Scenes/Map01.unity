@@ -2240,6 +2240,7 @@ Transform:
   m_PrefabInstance: {fileID: 122918116}
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!4 &127038863
 Transform:
   m_ObjectHideFlags: 0
@@ -2257,6 +2258,8 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 =======
 >>>>>>> parent of 85f37a7 (trying to merge)
+=======
+>>>>>>> parent of fe066bb (Created nodes where you can build a tower upon. Also created hover effect for the nodes)
 --- !u!1 &133589857
 GameObject:
   m_ObjectHideFlags: 0
@@ -6133,21 +6136,30 @@ Transform:
   m_GameObject: {fileID: 398969050}
   serializedVersion: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_LocalRotation: {x: -0.32650557, y: 0.6272114, z: -0.32650557, w: -0.6272114}
   m_LocalPosition: {x: 254.4, y: 100, z: 0}
 =======
   m_LocalRotation: {x: 0.67683196, y: -0, z: -0, w: 0.73613757}
   m_LocalPosition: {x: 0, y: 375, z: -10}
 >>>>>>> parent of 85f37a7 (trying to merge)
+=======
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 1, z: -10}
+>>>>>>> parent of fe066bb (Created nodes where you can build a tower upon. Also created hover effect for the nodes)
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_LocalEulerAnglesHint: {x: 55, y: 270, z: 0}
 =======
   m_LocalEulerAnglesHint: {x: 85.193, y: 0, z: 0}
 >>>>>>> parent of 85f37a7 (trying to merge)
+=======
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+>>>>>>> parent of fe066bb (Created nodes where you can build a tower upon. Also created hover effect for the nodes)
 --- !u!1 &400301800
 GameObject:
   m_ObjectHideFlags: 0
@@ -11404,6 +11416,7 @@ Transform:
   m_PrefabInstance: {fileID: 711837055}
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!4 &722307858
 Transform:
   m_ObjectHideFlags: 0
@@ -11517,6 +11530,8 @@ MeshFilter:
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 =======
 >>>>>>> parent of 85f37a7 (trying to merge)
+=======
+>>>>>>> parent of fe066bb (Created nodes where you can build a tower upon. Also created hover effect for the nodes)
 --- !u!1 &723791873
 GameObject:
   m_ObjectHideFlags: 0
@@ -17947,6 +17962,7 @@ Transform:
   m_PrefabInstance: {fileID: 1072069413}
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!4 &1075412204
 Transform:
   m_ObjectHideFlags: 0
@@ -18060,6 +18076,8 @@ MeshFilter:
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 =======
 >>>>>>> parent of 85f37a7 (trying to merge)
+=======
+>>>>>>> parent of fe066bb (Created nodes where you can build a tower upon. Also created hover effect for the nodes)
 --- !u!1 &1078696704
 GameObject:
   m_ObjectHideFlags: 0
@@ -18609,6 +18627,7 @@ Transform:
   m_PrefabInstance: {fileID: 1121700494}
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!1 &1121941316
 GameObject:
   m_ObjectHideFlags: 0
@@ -18657,6 +18676,8 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 =======
 >>>>>>> parent of 85f37a7 (trying to merge)
+=======
+>>>>>>> parent of fe066bb (Created nodes where you can build a tower upon. Also created hover effect for the nodes)
 --- !u!1001 &1124314784
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -24292,6 +24313,7 @@ Transform:
   m_PrefabInstance: {fileID: 1452575293}
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!4 &1459288144
 Transform:
   m_ObjectHideFlags: 0
@@ -24309,6 +24331,8 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 =======
 >>>>>>> parent of 85f37a7 (trying to merge)
+=======
+>>>>>>> parent of fe066bb (Created nodes where you can build a tower upon. Also created hover effect for the nodes)
 --- !u!1 &1460889272
 GameObject:
   m_ObjectHideFlags: 0
@@ -36359,8 +36383,11 @@ SceneRoots:
   - {fileID: 881946262}
   - {fileID: 1107208194}
 <<<<<<< HEAD
+<<<<<<< HEAD
   - {fileID: 1121941318}
   - {fileID: 1842493737}
 =======
   - {fileID: 2130437847}
 >>>>>>> parent of 85f37a7 (trying to merge)
+=======
+>>>>>>> parent of fe066bb (Created nodes where you can build a tower upon. Also created hover effect for the nodes)
