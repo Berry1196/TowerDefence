@@ -1319,7 +1319,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 1842493737}
+    m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 4720184623750468865, guid: e2a3c27971151754fbf52aa0400f7bac, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1383,7 +1383,7 @@ Transform:
   m_LocalScale: {x: 20, y: 1, z: 20}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1842493737}
+  m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &77188720
 PrefabInstance:
@@ -1453,7 +1453,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 1842493737}
+    m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 4720184623750468865, guid: e2a3c27971151754fbf52aa0400f7bac, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1517,7 +1517,7 @@ Transform:
   m_LocalScale: {x: 20, y: 1, z: 20}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1842493737}
+  m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &88467338
 GameObject:
@@ -3962,18 +3962,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bd68f52c975097f4e8012d8fd00647ae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rend: {fileID: 0}
-  hoverColor:
-    r: 0.3679245
-    g: 0.3679245
-    b: 0.3679245
-    a: 0
-  startColor:
-    r: 0.9622642
-    g: 0.9395693
-    b: 0.9395693
-    a: 0
-  tower: {fileID: 0}
+  hoverColor: {r: 0.3679245, g: 0.3679245, b: 0.3679245, a: 0}
+  startColor: {r: 0.9622642, g: 0.9395693, b: 0.9395693, a: 0}
   postionOffset: {x: 0, y: 0, z: 0}
 --- !u!65 &240975788
 BoxCollider:
@@ -5617,7 +5607,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 1842493737}
+    m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 4720184623750468865, guid: e2a3c27971151754fbf52aa0400f7bac, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5681,7 +5671,7 @@ Transform:
   m_LocalScale: {x: 20, y: 1, z: 20}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1842493737}
+  m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &346612129
 PrefabInstance:
@@ -6670,18 +6660,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bd68f52c975097f4e8012d8fd00647ae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rend: {fileID: 0}
-  hoverColor:
-    r: 0.3679245
-    g: 0.3679245
-    b: 0.3679245
-    a: 0
-  startColor:
-    r: 0.9622642
-    g: 0.9395693
-    b: 0.9395693
-    a: 0
-  tower: {fileID: 0}
+  hoverColor: {r: 0.3679245, g: 0.3679245, b: 0.3679245, a: 0}
+  startColor: {r: 0.9622642, g: 0.9395693, b: 0.9395693, a: 0}
   postionOffset: {x: 0, y: 0, z: 0}
 --- !u!65 &408033200
 BoxCollider:
@@ -7290,7 +7270,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 1842493737}
+    m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 4720184623750468865, guid: e2a3c27971151754fbf52aa0400f7bac, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7354,7 +7334,7 @@ Transform:
   m_LocalScale: {x: 20, y: 1, z: 20}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1842493737}
+  m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &420002285
 PrefabInstance:
@@ -7868,18 +7848,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bd68f52c975097f4e8012d8fd00647ae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rend: {fileID: 0}
-  hoverColor:
-    r: 0.3679245
-    g: 0.3679245
-    b: 0.3679245
-    a: 0
-  startColor:
-    r: 0.9622642
-    g: 0.9395693
-    b: 0.9395693
-    a: 0
-  tower: {fileID: 0}
+  hoverColor: {r: 0.3679245, g: 0.3679245, b: 0.3679245, a: 0}
+  startColor: {r: 0.9622642, g: 0.9395693, b: 0.9395693, a: 0}
   postionOffset: {x: 0, y: 0, z: 0}
 --- !u!65 &464434862
 BoxCollider:
@@ -9148,7 +9118,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 1842493737}
+    m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 4720184623750468865, guid: e2a3c27971151754fbf52aa0400f7bac, type: 3}
       propertyPath: m_LocalPosition.x
@@ -9212,7 +9182,7 @@ Transform:
   m_LocalScale: {x: 20, y: 1, z: 20}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1842493737}
+  m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &551157993
 PrefabInstance:
@@ -9530,7 +9500,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 1842493737}
+    m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 4720184623750468865, guid: e2a3c27971151754fbf52aa0400f7bac, type: 3}
       propertyPath: m_LocalPosition.x
@@ -9594,7 +9564,7 @@ Transform:
   m_LocalScale: {x: 20, y: 1, z: 20}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1842493737}
+  m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &573437915
 PrefabInstance:
@@ -13500,7 +13470,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 1842493737}
+    m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 4720184623750468865, guid: e2a3c27971151754fbf52aa0400f7bac, type: 3}
       propertyPath: m_LocalPosition.x
@@ -13551,11 +13521,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e2a3c27971151754fbf52aa0400f7bac, type: 3}
---- !u!4 &807520784 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 4720184623750468865, guid: e2a3c27971151754fbf52aa0400f7bac, type: 3}
-  m_PrefabInstance: {fileID: 807520783}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &808080486
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15115,7 +15080,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 1842493737}
+    m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 4720184623750468865, guid: e2a3c27971151754fbf52aa0400f7bac, type: 3}
       propertyPath: m_LocalPosition.x
@@ -15166,11 +15131,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e2a3c27971151754fbf52aa0400f7bac, type: 3}
---- !u!4 &894919183 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 4720184623750468865, guid: e2a3c27971151754fbf52aa0400f7bac, type: 3}
-  m_PrefabInstance: {fileID: 894919182}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &899128191
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16905,7 +16865,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 1842493737}
+    m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 4720184623750468865, guid: e2a3c27971151754fbf52aa0400f7bac, type: 3}
       propertyPath: m_LocalPosition.x
@@ -16956,11 +16916,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e2a3c27971151754fbf52aa0400f7bac, type: 3}
---- !u!4 &992281897 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 4720184623750468865, guid: e2a3c27971151754fbf52aa0400f7bac, type: 3}
-  m_PrefabInstance: {fileID: 992281896}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &992442781
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -17482,16 +17437,12 @@ Transform:
 --- !u!1 &1016610094
 GameObject:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 9128876456418834099, guid: e2a3c27971151754fbf52aa0400f7bac, type: 3}
-  m_PrefabInstance: {fileID: 1495275157}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1075412204}
-  - component: {fileID: 1075412208}
-  - component: {fileID: 1075412207}
-  - component: {fileID: 1075412206}
-  - component: {fileID: 1075412205}
+  - component: {fileID: 1016610095}
   m_Layer: 0
   m_Name: Node (2)
   m_TagString: Untagged
@@ -17499,6 +17450,21 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!4 &1016610095
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1016610094}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1021954283
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -19831,7 +19797,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 1842493737}
+    m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 4720184623750468865, guid: e2a3c27971151754fbf52aa0400f7bac, type: 3}
       propertyPath: m_LocalPosition.x
@@ -19895,7 +19861,7 @@ Transform:
   m_LocalScale: {x: 20, y: 1, z: 20}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1842493737}
+  m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1142917877
 MonoBehaviour:
@@ -19909,18 +19875,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bd68f52c975097f4e8012d8fd00647ae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rend: {fileID: 0}
-  hoverColor:
-    r: 0.3679245
-    g: 0.3679245
-    b: 0.3679245
-    a: 0
-  startColor:
-    r: 0.9622642
-    g: 0.9395693
-    b: 0.9395693
-    a: 0
-  tower: {fileID: 0}
+  hoverColor: {r: 0.3679245, g: 0.3679245, b: 0.3679245, a: 0}
+  startColor: {r: 0.9622642, g: 0.9395693, b: 0.9395693, a: 0}
   postionOffset: {x: 0, y: 0, z: 0}
 --- !u!65 &1142917878
 BoxCollider:
@@ -20739,7 +20695,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 1842493737}
+    m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 4720184623750468865, guid: e2a3c27971151754fbf52aa0400f7bac, type: 3}
       propertyPath: m_LocalPosition.x
@@ -20803,7 +20759,7 @@ Transform:
   m_LocalScale: {x: 20, y: 1, z: 20}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1842493737}
+  m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1182007883
 PrefabInstance:
@@ -21441,18 +21397,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bd68f52c975097f4e8012d8fd00647ae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rend: {fileID: 0}
-  hoverColor:
-    r: 0.3679245
-    g: 0.3679245
-    b: 0.3679245
-    a: 0
-  startColor:
-    r: 0.9622642
-    g: 0.9395693
-    b: 0.9395693
-    a: 0
-  tower: {fileID: 0}
+  hoverColor: {r: 0.3679245, g: 0.3679245, b: 0.3679245, a: 0}
+  startColor: {r: 0.9622642, g: 0.9395693, b: 0.9395693, a: 0}
   postionOffset: {x: 0, y: 0, z: 0}
 --- !u!65 &1233459230
 BoxCollider:
@@ -24301,7 +24247,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 1842493737}
+    m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 4720184623750468865, guid: e2a3c27971151754fbf52aa0400f7bac, type: 3}
       propertyPath: m_LocalPosition.x
@@ -24352,11 +24298,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e2a3c27971151754fbf52aa0400f7bac, type: 3}
---- !u!4 &1379776740 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 4720184623750468865, guid: e2a3c27971151754fbf52aa0400f7bac, type: 3}
-  m_PrefabInstance: {fileID: 1379776739}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1387115132
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -27918,18 +27859,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bd68f52c975097f4e8012d8fd00647ae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rend: {fileID: 0}
-  hoverColor:
-    r: 0.3679245
-    g: 0.3679245
-    b: 0.3679245
-    a: 0
-  startColor:
-    r: 0.9622642
-    g: 0.9395693
-    b: 0.9395693
-    a: 0
-  tower: {fileID: 0}
+  hoverColor: {r: 0.3679245, g: 0.3679245, b: 0.3679245, a: 0}
+  startColor: {r: 0.9622642, g: 0.9395693, b: 0.9395693, a: 0}
   postionOffset: {x: 0, y: 0, z: 0}
 --- !u!65 &1613315799
 BoxCollider:
@@ -28600,7 +28531,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 1842493737}
+    m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 4720184623750468865, guid: e2a3c27971151754fbf52aa0400f7bac, type: 3}
       propertyPath: m_LocalPosition.x
@@ -28664,7 +28595,7 @@ Transform:
   m_LocalScale: {x: 20, y: 1, z: 20}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1842493737}
+  m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1669367988
 MonoBehaviour:
@@ -28678,18 +28609,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bd68f52c975097f4e8012d8fd00647ae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rend: {fileID: 0}
-  hoverColor:
-    r: 0.3679245
-    g: 0.3679245
-    b: 0.3679245
-    a: 0
-  startColor:
-    r: 0.9622642
-    g: 0.9395693
-    b: 0.9395693
-    a: 0
-  tower: {fileID: 0}
+  hoverColor: {r: 0.3679245, g: 0.3679245, b: 0.3679245, a: 0}
+  startColor: {r: 0.9622642, g: 0.9395693, b: 0.9395693, a: 0}
   postionOffset: {x: 0, y: 0, z: 0}
 --- !u!65 &1669367989
 BoxCollider:
@@ -29138,18 +29059,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bd68f52c975097f4e8012d8fd00647ae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rend: {fileID: 0}
-  hoverColor:
-    r: 0.3679245
-    g: 0.3679245
-    b: 0.3679245
-    a: 0
-  startColor:
-    r: 0.9622642
-    g: 0.9395693
-    b: 0.9395693
-    a: 0
-  tower: {fileID: 0}
+  hoverColor: {r: 0.3679245, g: 0.3679245, b: 0.3679245, a: 0}
+  startColor: {r: 0.9622642, g: 0.9395693, b: 0.9395693, a: 0}
   postionOffset: {x: 0, y: 0, z: 0}
 --- !u!65 &1694928900
 BoxCollider:
@@ -29228,7 +29139,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 1842493737}
+    m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 4720184623750468865, guid: e2a3c27971151754fbf52aa0400f7bac, type: 3}
       propertyPath: m_LocalPosition.x
@@ -29292,7 +29203,7 @@ Transform:
   m_LocalScale: {x: 20, y: 1, z: 20}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1842493737}
+  m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1701526093
 MonoBehaviour:
@@ -29306,18 +29217,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bd68f52c975097f4e8012d8fd00647ae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rend: {fileID: 0}
-  hoverColor:
-    r: 0.3679245
-    g: 0.3679245
-    b: 0.3679245
-    a: 0
-  startColor:
-    r: 0.9622642
-    g: 0.9395693
-    b: 0.9395693
-    a: 0
-  tower: {fileID: 0}
+  hoverColor: {r: 0.3679245, g: 0.3679245, b: 0.3679245, a: 0}
+  startColor: {r: 0.9622642, g: 0.9395693, b: 0.9395693, a: 0}
   postionOffset: {x: 0, y: 0, z: 0}
 --- !u!65 &1701526094
 BoxCollider:
@@ -29458,7 +29359,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 1842493737}
+    m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 4720184623750468865, guid: e2a3c27971151754fbf52aa0400f7bac, type: 3}
       propertyPath: m_LocalPosition.x
@@ -29522,7 +29423,7 @@ Transform:
   m_LocalScale: {x: 20, y: 1, z: 20}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1842493737}
+  m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1705001741
 MonoBehaviour:
@@ -29536,18 +29437,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bd68f52c975097f4e8012d8fd00647ae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rend: {fileID: 0}
-  hoverColor:
-    r: 0.3679245
-    g: 0.3679245
-    b: 0.3679245
-    a: 0
-  startColor:
-    r: 0.9622642
-    g: 0.9395693
-    b: 0.9395693
-    a: 0
-  tower: {fileID: 0}
+  hoverColor: {r: 0.3679245, g: 0.3679245, b: 0.3679245, a: 0}
+  startColor: {r: 0.9622642, g: 0.9395693, b: 0.9395693, a: 0}
   postionOffset: {x: 0, y: 0, z: 0}
 --- !u!65 &1705001742
 BoxCollider:
@@ -29969,18 +29860,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bd68f52c975097f4e8012d8fd00647ae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rend: {fileID: 0}
-  hoverColor:
-    r: 0.3679245
-    g: 0.3679245
-    b: 0.3679245
-    a: 0
-  startColor:
-    r: 0.9622642
-    g: 0.9395693
-    b: 0.9395693
-    a: 0
-  tower: {fileID: 0}
+  hoverColor: {r: 0.3679245, g: 0.3679245, b: 0.3679245, a: 0}
+  startColor: {r: 0.9622642, g: 0.9395693, b: 0.9395693, a: 0}
   postionOffset: {x: 0, y: 0, z: 0}
 --- !u!65 &1730135717
 BoxCollider:
@@ -30604,12 +30485,12 @@ Transform:
 --- !u!1 &1769308349
 GameObject:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 9128876456418834099, guid: e2a3c27971151754fbf52aa0400f7bac, type: 3}
-  m_PrefabInstance: {fileID: 1238867331}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 722307858}
+  - component: {fileID: 1769308354}
   - component: {fileID: 1769308353}
   - component: {fileID: 1769308352}
   - component: {fileID: 1769308351}
@@ -30624,8 +30505,8 @@ GameObject:
 --- !u!114 &1769308350
 MonoBehaviour:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: -4924370563335201683, guid: e2a3c27971151754fbf52aa0400f7bac, type: 3}
-  m_PrefabInstance: {fileID: 1238867331}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1769308349}
   m_Enabled: 1
@@ -30633,24 +30514,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bd68f52c975097f4e8012d8fd00647ae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rend: {fileID: 0}
-  hoverColor:
-    r: 0.3679245
-    g: 0.3679245
-    b: 0.3679245
-    a: 0
-  startColor:
-    r: 0.9622642
-    g: 0.9395693
-    b: 0.9395693
-    a: 0
-  tower: {fileID: 0}
+  hoverColor: {r: 0.3679245, g: 0.3679245, b: 0.3679245, a: 0}
+  startColor: {r: 0.9622642, g: 0.9395693, b: 0.9395693, a: 0}
   postionOffset: {x: 0, y: 0, z: 0}
 --- !u!65 &1769308351
 BoxCollider:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 459828451490538684, guid: e2a3c27971151754fbf52aa0400f7bac, type: 3}
-  m_PrefabInstance: {fileID: 1238867331}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1769308349}
   m_Material: {fileID: 0}
@@ -30670,8 +30541,8 @@ BoxCollider:
 --- !u!23 &1769308352
 MeshRenderer:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 3344729923510392501, guid: e2a3c27971151754fbf52aa0400f7bac, type: 3}
-  m_PrefabInstance: {fileID: 1238867331}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1769308349}
   m_Enabled: 1
@@ -30712,11 +30583,26 @@ MeshRenderer:
 --- !u!33 &1769308353
 MeshFilter:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 6945324928092000872, guid: e2a3c27971151754fbf52aa0400f7bac, type: 3}
-  m_PrefabInstance: {fileID: 1238867331}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1769308349}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &1769308354
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1769308349}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1780724520
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -33308,12 +33194,12 @@ Transform:
 --- !u!1 &1870152581
 GameObject:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 9128876456418834099, guid: e2a3c27971151754fbf52aa0400f7bac, type: 3}
-  m_PrefabInstance: {fileID: 1497973356}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1497973357}
+  - component: {fileID: 1870152586}
   - component: {fileID: 1870152585}
   - component: {fileID: 1870152584}
   - component: {fileID: 1870152583}
@@ -33328,8 +33214,8 @@ GameObject:
 --- !u!114 &1870152582
 MonoBehaviour:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: -4924370563335201683, guid: e2a3c27971151754fbf52aa0400f7bac, type: 3}
-  m_PrefabInstance: {fileID: 1497973356}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1870152581}
   m_Enabled: 1
@@ -33337,24 +33223,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bd68f52c975097f4e8012d8fd00647ae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rend: {fileID: 0}
-  hoverColor:
-    r: 0.3679245
-    g: 0.3679245
-    b: 0.3679245
-    a: 0
-  startColor:
-    r: 0.9622642
-    g: 0.9395693
-    b: 0.9395693
-    a: 0
-  tower: {fileID: 0}
+  hoverColor: {r: 0.3679245, g: 0.3679245, b: 0.3679245, a: 0}
+  startColor: {r: 0.9622642, g: 0.9395693, b: 0.9395693, a: 0}
   postionOffset: {x: 0, y: 0, z: 0}
 --- !u!65 &1870152583
 BoxCollider:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 459828451490538684, guid: e2a3c27971151754fbf52aa0400f7bac, type: 3}
-  m_PrefabInstance: {fileID: 1497973356}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1870152581}
   m_Material: {fileID: 0}
@@ -33374,8 +33250,8 @@ BoxCollider:
 --- !u!23 &1870152584
 MeshRenderer:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 3344729923510392501, guid: e2a3c27971151754fbf52aa0400f7bac, type: 3}
-  m_PrefabInstance: {fileID: 1497973356}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1870152581}
   m_Enabled: 1
@@ -33416,11 +33292,26 @@ MeshRenderer:
 --- !u!33 &1870152585
 MeshFilter:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 6945324928092000872, guid: e2a3c27971151754fbf52aa0400f7bac, type: 3}
-  m_PrefabInstance: {fileID: 1497973356}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1870152581}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &1870152586
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1870152581}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1876475244
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -34096,12 +33987,12 @@ Transform:
 --- !u!1 &1907629928
 GameObject:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 9128876456418834099, guid: e2a3c27971151754fbf52aa0400f7bac, type: 3}
-  m_PrefabInstance: {fileID: 6365503395147431766}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 127038863}
+  - component: {fileID: 1907629933}
   - component: {fileID: 1907629932}
   - component: {fileID: 1907629931}
   - component: {fileID: 1907629930}
@@ -34116,8 +34007,8 @@ GameObject:
 --- !u!114 &1907629929
 MonoBehaviour:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: -4924370563335201683, guid: e2a3c27971151754fbf52aa0400f7bac, type: 3}
-  m_PrefabInstance: {fileID: 6365503395147431766}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1907629928}
   m_Enabled: 1
@@ -34125,24 +34016,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bd68f52c975097f4e8012d8fd00647ae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rend: {fileID: 0}
-  hoverColor:
-    r: 0.3679245
-    g: 0.3679245
-    b: 0.3679245
-    a: 0
-  startColor:
-    r: 0.9622642
-    g: 0.9395693
-    b: 0.9395693
-    a: 0
-  tower: {fileID: 0}
+  hoverColor: {r: 0.3679245, g: 0.3679245, b: 0.3679245, a: 0}
+  startColor: {r: 0.9622642, g: 0.9395693, b: 0.9395693, a: 0}
   postionOffset: {x: 0, y: 0.5, z: 0}
 --- !u!65 &1907629930
 BoxCollider:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 459828451490538684, guid: e2a3c27971151754fbf52aa0400f7bac, type: 3}
-  m_PrefabInstance: {fileID: 6365503395147431766}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1907629928}
   m_Material: {fileID: 0}
@@ -34162,8 +34043,8 @@ BoxCollider:
 --- !u!23 &1907629931
 MeshRenderer:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 3344729923510392501, guid: e2a3c27971151754fbf52aa0400f7bac, type: 3}
-  m_PrefabInstance: {fileID: 6365503395147431766}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1907629928}
   m_Enabled: 1
@@ -34204,11 +34085,26 @@ MeshRenderer:
 --- !u!33 &1907629932
 MeshFilter:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 6945324928092000872, guid: e2a3c27971151754fbf52aa0400f7bac, type: 3}
-  m_PrefabInstance: {fileID: 6365503395147431766}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1907629928}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &1907629933
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1907629928}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1908655650
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -35316,12 +35212,12 @@ Transform:
 --- !u!1 &1960627622
 GameObject:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 9128876456418834099, guid: e2a3c27971151754fbf52aa0400f7bac, type: 3}
-  m_PrefabInstance: {fileID: 1844329649}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1459288144}
+  - component: {fileID: 1960627627}
   - component: {fileID: 1960627626}
   - component: {fileID: 1960627625}
   - component: {fileID: 1960627624}
@@ -35336,8 +35232,8 @@ GameObject:
 --- !u!114 &1960627623
 MonoBehaviour:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: -4924370563335201683, guid: e2a3c27971151754fbf52aa0400f7bac, type: 3}
-  m_PrefabInstance: {fileID: 1844329649}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1960627622}
   m_Enabled: 1
@@ -35345,24 +35241,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bd68f52c975097f4e8012d8fd00647ae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rend: {fileID: 0}
-  hoverColor:
-    r: 0.3679245
-    g: 0.3679245
-    b: 0.3679245
-    a: 0
-  startColor:
-    r: 0.9622642
-    g: 0.9395693
-    b: 0.9395693
-    a: 0
-  tower: {fileID: 0}
+  hoverColor: {r: 0.3679245, g: 0.3679245, b: 0.3679245, a: 0}
+  startColor: {r: 0.9622642, g: 0.9395693, b: 0.9395693, a: 0}
   postionOffset: {x: 0, y: 0, z: 0}
 --- !u!65 &1960627624
 BoxCollider:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 459828451490538684, guid: e2a3c27971151754fbf52aa0400f7bac, type: 3}
-  m_PrefabInstance: {fileID: 1844329649}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1960627622}
   m_Material: {fileID: 0}
@@ -35382,8 +35268,8 @@ BoxCollider:
 --- !u!23 &1960627625
 MeshRenderer:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 3344729923510392501, guid: e2a3c27971151754fbf52aa0400f7bac, type: 3}
-  m_PrefabInstance: {fileID: 1844329649}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1960627622}
   m_Enabled: 1
@@ -35424,11 +35310,26 @@ MeshRenderer:
 --- !u!33 &1960627626
 MeshFilter:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 6945324928092000872, guid: e2a3c27971151754fbf52aa0400f7bac, type: 3}
-  m_PrefabInstance: {fileID: 1844329649}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1960627622}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &1960627627
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1960627622}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 2.9, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1961158054
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -35745,7 +35646,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 1842493737}
+    m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 4720184623750468865, guid: e2a3c27971151754fbf52aa0400f7bac, type: 3}
       propertyPath: m_LocalPosition.x
@@ -35809,7 +35710,7 @@ Transform:
   m_LocalScale: {x: 20, y: 1, z: 20}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1842493737}
+  m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1986606474
 MonoBehaviour:
@@ -35823,18 +35724,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bd68f52c975097f4e8012d8fd00647ae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rend: {fileID: 0}
-  hoverColor:
-    r: 0.3679245
-    g: 0.3679245
-    b: 0.3679245
-    a: 0
-  startColor:
-    r: 0.9622642
-    g: 0.9395693
-    b: 0.9395693
-    a: 0
-  tower: {fileID: 0}
+  hoverColor: {r: 0.3679245, g: 0.3679245, b: 0.3679245, a: 0}
+  startColor: {r: 0.9622642, g: 0.9395693, b: 0.9395693, a: 0}
   postionOffset: {x: 0, y: 0, z: 0}
 --- !u!65 &1986606475
 BoxCollider:
@@ -36473,7 +36364,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 1842493737}
+    m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 4720184623750468865, guid: e2a3c27971151754fbf52aa0400f7bac, type: 3}
       propertyPath: m_LocalPosition.x
@@ -36537,7 +36428,7 @@ Transform:
   m_LocalScale: {x: 20, y: 1, z: 20}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1842493737}
+  m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &2023382731
 MonoBehaviour:
@@ -36551,18 +36442,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bd68f52c975097f4e8012d8fd00647ae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rend: {fileID: 0}
-  hoverColor:
-    r: 0.3679245
-    g: 0.3679245
-    b: 0.3679245
-    a: 0
-  startColor:
-    r: 0.9622642
-    g: 0.9395693
-    b: 0.9395693
-    a: 0
-  tower: {fileID: 0}
+  hoverColor: {r: 0.3679245, g: 0.3679245, b: 0.3679245, a: 0}
+  startColor: {r: 0.9622642, g: 0.9395693, b: 0.9395693, a: 0}
   postionOffset: {x: 0, y: 0, z: 0}
 --- !u!65 &2023382732
 BoxCollider:
@@ -37598,7 +37479,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 1842493737}
+    m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 4720184623750468865, guid: e2a3c27971151754fbf52aa0400f7bac, type: 3}
       propertyPath: m_LocalPosition.x
@@ -37662,7 +37543,7 @@ Transform:
   m_LocalScale: {x: 20, y: 1, z: 20}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1842493737}
+  m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &2078618255
 MonoBehaviour:
@@ -37676,18 +37557,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bd68f52c975097f4e8012d8fd00647ae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rend: {fileID: 0}
-  hoverColor:
-    r: 0.3679245
-    g: 0.3679245
-    b: 0.3679245
-    a: 0
-  startColor:
-    r: 0.9622642
-    g: 0.9395693
-    b: 0.9395693
-    a: 0
-  tower: {fileID: 0}
+  hoverColor: {r: 0.3679245, g: 0.3679245, b: 0.3679245, a: 0}
+  startColor: {r: 0.9622642, g: 0.9395693, b: 0.9395693, a: 0}
   postionOffset: {x: 0, y: 0, z: 0}
 --- !u!65 &2078618256
 BoxCollider:
@@ -37890,7 +37761,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 1842493737}
+    m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 4720184623750468865, guid: e2a3c27971151754fbf52aa0400f7bac, type: 3}
       propertyPath: m_LocalPosition.x
@@ -37954,7 +37825,7 @@ Transform:
   m_LocalScale: {x: 20, y: 1, z: 20}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1842493737}
+  m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &2092475608
 MonoBehaviour:
@@ -37968,18 +37839,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bd68f52c975097f4e8012d8fd00647ae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rend: {fileID: 0}
-  hoverColor:
-    r: 0.3679245
-    g: 0.3679245
-    b: 0.3679245
-    a: 0
-  startColor:
-    r: 0.9622642
-    g: 0.9395693
-    b: 0.9395693
-    a: 0
-  tower: {fileID: 0}
+  hoverColor: {r: 0.3679245, g: 0.3679245, b: 0.3679245, a: 0}
+  startColor: {r: 0.9622642, g: 0.9395693, b: 0.9395693, a: 0}
   postionOffset: {x: 0, y: 0, z: 0}
 --- !u!65 &2092475609
 BoxCollider:
@@ -38564,7 +38425,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 1842493737}
+    m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 4720184623750468865, guid: e2a3c27971151754fbf52aa0400f7bac, type: 3}
       propertyPath: m_LocalPosition.x
@@ -38628,7 +38489,7 @@ Transform:
   m_LocalScale: {x: 20, y: 1, z: 20}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1842493737}
+  m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &2124822277
 MonoBehaviour:
@@ -38642,18 +38503,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bd68f52c975097f4e8012d8fd00647ae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rend: {fileID: 0}
-  hoverColor:
-    r: 0.3679245
-    g: 0.3679245
-    b: 0.3679245
-    a: 0
-  startColor:
-    r: 0.9622642
-    g: 0.9395693
-    b: 0.9395693
-    a: 0
-  tower: {fileID: 0}
+  hoverColor: {r: 0.3679245, g: 0.3679245, b: 0.3679245, a: 0}
+  startColor: {r: 0.9622642, g: 0.9395693, b: 0.9395693, a: 0}
   postionOffset: {x: 0, y: 0, z: 0}
 --- !u!65 &2124822278
 BoxCollider:
@@ -39486,6 +39337,11 @@ Transform:
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
+  - {fileID: 1016610095}
+  - {fileID: 1769308354}
+  - {fileID: 1870152586}
+  - {fileID: 1907629933}
+  - {fileID: 1960627627}
   - {fileID: 398969053}
   - {fileID: 2121126337}
   - {fileID: 698461547}
@@ -39504,3 +39360,23 @@ SceneRoots:
   - {fileID: 135410301}
   - {fileID: 881946262}
   - {fileID: 1107208194}
+  - {fileID: 75690620}
+  - {fileID: 82854567}
+  - {fileID: 345056976}
+  - {fileID: 419755389}
+  - {fileID: 547581087}
+  - {fileID: 573122937}
+  - {fileID: 807520783}
+  - {fileID: 894919182}
+  - {fileID: 992281896}
+  - {fileID: 1142917875}
+  - {fileID: 1180452193}
+  - {fileID: 1379776739}
+  - {fileID: 1669367986}
+  - {fileID: 1701526091}
+  - {fileID: 1705001739}
+  - {fileID: 1986606472}
+  - {fileID: 2023382729}
+  - {fileID: 2078618253}
+  - {fileID: 2092475606}
+  - {fileID: 2124822275}
