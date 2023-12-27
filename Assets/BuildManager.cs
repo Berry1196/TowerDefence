@@ -5,7 +5,7 @@ using UnityEngine;
 public class BuildManager : MonoBehaviour
 {
     public static BuildManager instance;
-    private GameObject towerToBuild;
+    private TowerBlueprint towerToBuild;
     public GameObject standardTowerPrefab;
 
     void Awake()
@@ -18,14 +18,19 @@ public class BuildManager : MonoBehaviour
         instance = this;
     }
 
-    void Start()
+    public void SelectTowerToBuild(TowerBlueprint tower)
     {
-        towerToBuild = standardTowerPrefab;
+        towerToBuild = tower;
     }
 
-    public GameObject GetTowerToBuild()
+    public bool CanBuild { get { return towerToBuild != null; } }
+
+    public void BuildTowerOn(Node node)
     {
-        return towerToBuild;
+        GameObject tower = (GameObject)Instantiate(towerToBuild.prefab, node.GetBuildPosition(), Quaternion.identity);
+        node.tower = tower;
+        Debug.Log("Tower built!");
+
     }
 
 }
