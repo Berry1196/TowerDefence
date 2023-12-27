@@ -8,7 +8,13 @@ public class CameraMovement : MonoBehaviour
 
     public float panSpeed = 30f;
     public float panBorderThickness = 10f;
+
     public Boolean movement = true;
+    public float scrollSpeed = 5f;
+    public float minZoom = 10f;
+    public float maxZoom = 80f;
+
+
     // Update is called once per frame
     void Update()
     {
@@ -36,7 +42,12 @@ public class CameraMovement : MonoBehaviour
         {
             transform.Translate(Vector3.forward * panSpeed * Time.deltaTime, Space.World);
         }
-
+        //Scroll
+        float scroll = Input.GetAxis("Mouse ScrollWheel");
+        Vector3 pos = transform.position;
+        pos.y -= scroll * 1000 * scrollSpeed * Time.deltaTime;
+        pos.y = Mathf.Clamp(pos.y, minZoom, maxZoom);
+        transform.position = pos;
 
     }
 }
