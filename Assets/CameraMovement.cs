@@ -12,7 +12,7 @@ public class CameraMovement : MonoBehaviour
     public Boolean movement = true;
     public float scrollSpeed = 5f;
     public float minZoom = 10f;
-    public float maxZoom = 80f;
+    public float maxZoom = 200f;
 
 
     // Update is called once per frame
