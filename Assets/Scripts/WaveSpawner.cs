@@ -2,7 +2,6 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-
 public class WaveSpawner : MonoBehaviour
 {
     public Transform enemyPrefab;
@@ -10,6 +9,7 @@ public class WaveSpawner : MonoBehaviour
     public float timeBetweenWaves = 5f;
     private float countdown = 2f;
     private int waveNumber = 0;
+    public Wave[] waves;
 
     void Update()
     {
@@ -23,11 +23,12 @@ public class WaveSpawner : MonoBehaviour
 
     IEnumerator SpawnWave()
     {
+
         waveNumber++;
         for (int i = 0; i < waveNumber; i++)
         {
             SpawnEnemy();
-            yield return new WaitForSeconds(0.5f);
+            yield return new WaitForSeconds(1f);
         }
 
     }
@@ -37,3 +38,5 @@ public class WaveSpawner : MonoBehaviour
         Instantiate(enemyPrefab, spawnPoint.position, spawnPoint.rotation);
     }
 }
+
+
