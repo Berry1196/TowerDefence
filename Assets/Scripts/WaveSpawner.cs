@@ -2,40 +2,45 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public class WaveSpawner : MonoBehaviour
 {
-    public Transform enemyPrefab;
-    public Transform spawnPoint;
-    public float timeBetweenWaves = 5f;
-    private float countdown = 2f;
-    private int waveNumber = 0;
+    public static int remainingEnemies = 0;
     public Wave[] waves;
+    public Transform spawnPoint;
+
+    public float timeBetweenSpawns = 5f;
+    private float countdown = 2f;
+    private int currentWave = 0;
 
     void Update()
     {
+        if (remainingEnemies > 0)
+        {
+            return;
+        }
         if (countdown <= 0f)
         {
             StartCoroutine(SpawnWave());
-            countdown = timeBetweenWaves;
+            countdown = timeBetweenSpawns;
         }
         countdown -= Time.deltaTime;
     }
 
     IEnumerator SpawnWave()
     {
-
-        waveNumber++;
-        for (int i = 0; i < waveNumber; i++)
+        Wave wave = waves[currentWave];
+        for (int i = 0; i < wave.count; i++)
         {
-            SpawnEnemy();
-            yield return new WaitForSeconds(1f);
+            SpawnEnemy(wave.enemy);
+            yield return new WaitForSeconds(1f / wave.rate);
         }
-
+        currentWave++;
     }
-
-    void SpawnEnemy()
+    void SpawnEnemy(GameObject enemy)
     {
-        Instantiate(enemyPrefab, spawnPoint.position, spawnPoint.rotation);
+        Instantiate(enemy, spawnPoint.position, spawnPoint.rotation);
+        remainingEnemies++;
     }
 }
 

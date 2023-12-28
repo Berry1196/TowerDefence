@@ -151,8 +151,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bc589e34525f82b46be06a4e7ee7831e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  target: {fileID: 0}
-  range: 3
+  target: {fileID: 7590460533418706382, guid: 8c5c3e24ae5a2014f84cee39181f441c, type: 3}
+  range: 50
   enemyTag: Enemy
   partToRotate: {fileID: 1728211230448015003}
   turnSpeed: 10

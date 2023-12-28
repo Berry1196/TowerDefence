@@ -4956,7 +4956,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 254911633}
-  - component: {fileID: 254911632}
+  - component: {fileID: 254911634}
   m_Layer: 0
   m_Name: WaveSpawner
   m_TagString: Untagged
@@ -4964,22 +4964,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &254911632
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 254911631}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ce1a895a325ee6d468583221b32e6171, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  enemyPrefab: {fileID: 7590460533418706382, guid: 8c5c3e24ae5a2014f84cee39181f441c, type: 3}
-  spawnPoint: {fileID: 254911633}
-  timeBetweenWaves: 5
-  waves: []
 --- !u!4 &254911633
 Transform:
   m_ObjectHideFlags: 0
@@ -4995,6 +4979,36 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &254911634
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 254911631}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ce1a895a325ee6d468583221b32e6171, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  waves:
+  - enemy: {fileID: 4875087215814473738, guid: 8c5c3e24ae5a2014f84cee39181f441c, type: 3}
+    count: 5
+    rate: 1
+  - enemy: {fileID: 0}
+    count: 0
+    rate: 0
+  - enemy: {fileID: 0}
+    count: 0
+    rate: 0
+  - enemy: {fileID: 0}
+    count: 0
+    rate: 0
+  - enemy: {fileID: 0}
+    count: 0
+    rate: 0
+  spawnPoint: {fileID: 254911633}
+  timeBetweenSpawns: 5
 --- !u!1 &257626238
 GameObject:
   m_ObjectHideFlags: 0
