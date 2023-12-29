@@ -119,7 +119,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0043ebc0a9af6a14da7e1181bbf3fbd5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 20
+  speed: 30
 --- !u!114 &2044855819637312294
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -132,3 +132,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 666084b3499438543a60d830c70cfce2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  startSpeed: 10
+  speed: 0
+  startHealth: 100
+  worth: 50
+  deathEffect: {fileID: 0}
+  healthBar: {fileID: 0}

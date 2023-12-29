@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -32,7 +33,7 @@ public class Enemy : MonoBehaviour
         health -= amount;
 
         //healthBar.fillAmount = health / startHealth;
-        Debug.Log(health);
+        //Debug.Log(health);
 
         if (health <= 0 && !isDead)
         {
@@ -50,6 +51,7 @@ public class Enemy : MonoBehaviour
         isDead = true;
 
         PlayerStats.Money += worth;
+        Debug.Log(PlayerStats.Money);
 
         // GameObject effect = (GameObject)Instantiate(deathEffect, transform.position, Quaternion.identity);
         //Destroy(effect, 5f);
