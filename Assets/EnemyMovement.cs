@@ -44,8 +44,9 @@ public class EnemyMovement : MonoBehaviour
     }
     void ReduceLives()
     {
-        PlayerStats.Lives--;
-        //Debug.Log("Lives: " + PlayerStats.Lives);
+        Player.currentHealth--;
+        FindObjectOfType<AudioManager>().Play("DamageTaken");
+        Debug.Log("Lives: " + Player.currentHealth);
     }
 
 }

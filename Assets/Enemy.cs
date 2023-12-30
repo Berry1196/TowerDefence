@@ -32,6 +32,7 @@ public class Enemy : MonoBehaviour
     {
         health -= amount;
 
+
         //healthBar.fillAmount = health / startHealth;
         //Debug.Log(health);
 
@@ -59,6 +60,7 @@ public class Enemy : MonoBehaviour
         WaveSpawner.remainingEnemies--;
 
         Destroy(gameObject);
+        FindObjectOfType<AudioManager>().Play("EnemyDeath");
     }
 
 }

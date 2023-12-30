@@ -17115,6 +17115,8 @@ GameObject:
   - component: {fileID: 908898025}
   - component: {fileID: 908898024}
   - component: {fileID: 908898026}
+  - component: {fileID: 908898027}
+  - component: {fileID: 908898028}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -17162,8 +17164,34 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3080dca03f9aee547aab93166547bc64, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startLives: 20
   startMoney: 400
+--- !u!114 &908898027
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 908898023}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fab5e0285b6f7c4a9fb33c4ab21c785, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &908898028
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 908898023}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 299c1a4e515605f478e2bbdd13d6c6b0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxHealth: 5
+  healthBar: {fileID: 0}
+  isDead: 0
 --- !u!1001 &909289370
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -41769,6 +41797,87 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7695673013065257788, guid: daad19c035ee9754595afeba9c5be924, type: 3}
   m_PrefabInstance: {fileID: 2147196783}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &3722994807033143255
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1646483811206394470, guid: 80d30b30fafb8ee4e92df6c22e3f3ff7, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1646483811206394470, guid: 80d30b30fafb8ee4e92df6c22e3f3ff7, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1646483811206394470, guid: 80d30b30fafb8ee4e92df6c22e3f3ff7, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1646483811206394470, guid: 80d30b30fafb8ee4e92df6c22e3f3ff7, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1646483811206394470, guid: 80d30b30fafb8ee4e92df6c22e3f3ff7, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1646483811206394470, guid: 80d30b30fafb8ee4e92df6c22e3f3ff7, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1646483811206394470, guid: 80d30b30fafb8ee4e92df6c22e3f3ff7, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1646483811206394470, guid: 80d30b30fafb8ee4e92df6c22e3f3ff7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1646483811206394470, guid: 80d30b30fafb8ee4e92df6c22e3f3ff7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1646483811206394470, guid: 80d30b30fafb8ee4e92df6c22e3f3ff7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4875559502384415434, guid: 80d30b30fafb8ee4e92df6c22e3f3ff7, type: 3}
+      propertyPath: sounds.Array.data[4].name
+      value: DeathEffect
+      objectReference: {fileID: 0}
+    - target: {fileID: 4875559502384415434, guid: 80d30b30fafb8ee4e92df6c22e3f3ff7, type: 3}
+      propertyPath: sounds.Array.data[6].clip
+      value: 
+      objectReference: {fileID: 8300000, guid: 3c59e8fbc61c49e499ef8ae713f9a7a7, type: 3}
+    - target: {fileID: 4875559502384415434, guid: 80d30b30fafb8ee4e92df6c22e3f3ff7, type: 3}
+      propertyPath: sounds.Array.data[6].loop
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4875559502384415434, guid: 80d30b30fafb8ee4e92df6c22e3f3ff7, type: 3}
+      propertyPath: sounds.Array.data[6].name
+      value: DamageTaken
+      objectReference: {fileID: 0}
+    - target: {fileID: 4875559502384415434, guid: 80d30b30fafb8ee4e92df6c22e3f3ff7, type: 3}
+      propertyPath: sounds.Array.data[4].pitch
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4875559502384415434, guid: 80d30b30fafb8ee4e92df6c22e3f3ff7, type: 3}
+      propertyPath: sounds.Array.data[1].volume
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6220134745640397962, guid: 80d30b30fafb8ee4e92df6c22e3f3ff7, type: 3}
+      propertyPath: m_Name
+      value: AudioManager
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 80d30b30fafb8ee4e92df6c22e3f3ff7, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -41797,3 +41906,4 @@ SceneRoots:
   - {fileID: 2008793534}
   - {fileID: 254911633}
   - {fileID: 2018141854}
+  - {fileID: 3722994807033143255}
