@@ -51,8 +51,8 @@ public class Enemy : MonoBehaviour
     {
         isDead = true;
 
-        PlayerStats.Money += worth;
-        Debug.Log(PlayerStats.Money);
+        Player.Money += worth;
+        Debug.Log(Player.Money);
 
         // GameObject effect = (GameObject)Instantiate(deathEffect, transform.position, Quaternion.identity);
         //Destroy(effect, 5f);
