@@ -9,10 +9,14 @@ public class EnemyMovement : MonoBehaviour
     private Transform target;
     private int wavepointIndex = 0;
     private WaveSpawner waveSpawner;
+    Player player;
+
+
 
     void Start()
     {
         target = Waypoints.points[0];
+        player = GameObject.FindGameObjectWithTag("Player").GetComponent<Player>();
     }
 
     void Update()
@@ -40,13 +44,12 @@ public class EnemyMovement : MonoBehaviour
     {
         WaveSpawner.remainingEnemies--;
         Destroy(gameObject);
-        ReduceLives();
+        player.TakeDamage(20);
     }
-    void ReduceLives()
-    {
-        Player.currentHealth--;
-        FindObjectOfType<AudioManager>().Play("DamageTaken");
-        Debug.Log("Lives: " + Player.currentHealth);
-    }
-
+    /* void ReduceLives()
+     {
+         player.TakeDamage(20);
+         // Debug.Log("Health: " + player.currentHealth);
+     }
+ */
 }

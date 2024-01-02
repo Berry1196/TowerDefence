@@ -6,20 +6,20 @@ public class Player : MonoBehaviour
 {
 
 	public int maxHealth = 100;
-	public static int currentHealth;
+	public int currentHealth;
 
 	public HealthBar healthBar;
 	public bool isDead = false;
 
-	
-    public static int Money;
-    public int startMoney = 400;
+
+	public static int Money;
+	public int startMoney = 400;
 
 	// Start is called before the first frame update
 	void Start()
 	{
 		currentHealth = maxHealth;
-		//healthBar.SetMaxHealth(maxHealth);
+		healthBar.SetMaxHealth(maxHealth);
 
 		Money = startMoney;
 	}
@@ -35,19 +35,19 @@ public class Player : MonoBehaviour
 	}
 
 	void OnTriggerEnter(Collider other)
-{
-    if (other.CompareTag("Enemy"))
-    {
-    
-        int damageAmount = 10;
-
-        TakeDamage(damageAmount);
-    }
-}
-
-	void TakeDamage(int damage)
 	{
-		FindObjectOfType<AudioManager>().Play("PlayerHit");
+		if (other.CompareTag("Enemy"))
+		{
+
+			int damageAmount = 10;
+
+			TakeDamage(damageAmount);
+		}
+	}
+
+	public void TakeDamage(int damage)
+	{
+		FindObjectOfType<AudioManager>().Play("DamageTaken");
 		currentHealth -= damage;
 
 		healthBar.SetHealth(currentHealth);
