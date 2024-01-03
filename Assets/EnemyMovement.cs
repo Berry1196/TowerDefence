@@ -8,15 +8,16 @@ public class EnemyMovement : MonoBehaviour
 
     private Transform target;
     private int wavepointIndex = 0;
-    private WaveSpawner waveSpawner;
-    Player player;
 
+    Player player;
+    WaveSpawner waveSpawner;
 
 
     void Start()
     {
         target = Waypoints.points[0];
         player = GameObject.FindGameObjectWithTag("Player").GetComponent<Player>();
+        waveSpawner = FindObjectOfType<WaveSpawner>();
     }
 
     void Update()
@@ -42,7 +43,7 @@ public class EnemyMovement : MonoBehaviour
 
     void EndPath()
     {
-        WaveSpawner waveSpawner = FindObjectOfType<WaveSpawner>();
+
         waveSpawner.remainingEnemies--;
         Destroy(gameObject);
         player.TakeDamage(20);

@@ -21,6 +21,7 @@ public class Enemy : MonoBehaviour
     public Image healthBar;
 
     private bool isDead = false;
+    WaveSpawner waveSpawner;
 
     void Start()
     {
@@ -57,7 +58,7 @@ public class Enemy : MonoBehaviour
         // GameObject effect = (GameObject)Instantiate(deathEffect, transform.position, Quaternion.identity);
         //Destroy(effect, 5f);
 
-        WaveSpawner waveSpawner = FindObjectOfType<WaveSpawner>();
+
         if (waveSpawner != null)
         {
             waveSpawner.remainingEnemies--;
