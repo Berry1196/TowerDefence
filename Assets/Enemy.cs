@@ -57,7 +57,11 @@ public class Enemy : MonoBehaviour
         // GameObject effect = (GameObject)Instantiate(deathEffect, transform.position, Quaternion.identity);
         //Destroy(effect, 5f);
 
-        WaveSpawner.remainingEnemies--;
+        WaveSpawner waveSpawner = FindObjectOfType<WaveSpawner>();
+        if (waveSpawner != null)
+        {
+            waveSpawner.remainingEnemies--;
+        }
 
         Destroy(gameObject);
         FindObjectOfType<AudioManager>().Play("EnemyDeath");

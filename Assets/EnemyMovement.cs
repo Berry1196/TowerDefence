@@ -42,7 +42,8 @@ public class EnemyMovement : MonoBehaviour
 
     void EndPath()
     {
-        WaveSpawner.remainingEnemies--;
+        WaveSpawner waveSpawner = FindObjectOfType<WaveSpawner>();
+        waveSpawner.remainingEnemies--;
         Destroy(gameObject);
         player.TakeDamage(20);
     }
