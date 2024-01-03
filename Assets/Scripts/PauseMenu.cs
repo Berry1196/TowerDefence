@@ -13,6 +13,10 @@ public class PauseMenu : MonoBehaviour
     }
     void Update()
     {
+        if (GameManager.gameHasEnded)
+        {
+            this.enabled = false;
+        }
         if (Input.GetKeyDown(KeyCode.Escape))
         {
             if (isPaused)
@@ -45,10 +49,18 @@ public class PauseMenu : MonoBehaviour
         Time.timeScale = 1f;
         UnityEngine.SceneManagement.SceneManager.LoadScene(0);
     }
+    //tried to fix bug where stuff wouldnt spawn on restart! Its fixed
+    /*public void Restart()
+    {
+        Time.timeScale = 1f;
+        UnityEngine.SceneManagement.SceneManager.LoadScene(1);
+    } */
 
     public void QuitGame()
     {
         // Quits the game
         Application.Quit();
     }
+
+
 }

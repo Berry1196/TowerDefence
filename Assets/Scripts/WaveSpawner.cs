@@ -5,13 +5,20 @@ using UnityEngine;
 
 public class WaveSpawner : MonoBehaviour
 {
-    public int remainingEnemies = 0;
+    public int remainingEnemies;
     public Wave[] waves;
     public Transform spawnPoint;
 
     public float timeBetweenSpawns = 5f;
     private float countdown = 2f;
     private int currentWave = 0;
+    private Player player;
+
+    void Start()
+    {
+        player = GameObject.FindGameObjectWithTag("Player").GetComponent<Player>();
+        remainingEnemies = 0;
+    }
 
     void Update()
     {
@@ -25,17 +32,21 @@ public class WaveSpawner : MonoBehaviour
             countdown = timeBetweenSpawns;
         }
         countdown -= Time.deltaTime;
+
     }
 
     IEnumerator SpawnWave()
     {
         Wave wave = waves[currentWave];
+        Player.waveNumber++;
+        Debug.Log("Wave: " + Player.waveNumber);
         for (int i = 0; i < wave.count; i++)
         {
             SpawnEnemy(wave.enemies[i].gameObject);
             yield return new WaitForSeconds(1f / wave.rate);
         }
         currentWave++;
+
     }
     void SpawnEnemy(GameObject enemy)
     {

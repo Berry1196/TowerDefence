@@ -27,6 +27,7 @@ public class Enemy : MonoBehaviour
     {
         speed = startSpeed;
         health = startHealth;
+        waveSpawner = FindObjectOfType<WaveSpawner>();
     }
 
     public void TakeDamage(float amount)
@@ -63,7 +64,7 @@ public class Enemy : MonoBehaviour
         {
             waveSpawner.remainingEnemies--;
         }
-
+        Debug.Log(waveSpawner.remainingEnemies);
         Destroy(gameObject);
         FindObjectOfType<AudioManager>().Play("EnemyDeath");
     }

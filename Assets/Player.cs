@@ -15,13 +15,15 @@ public class Player : MonoBehaviour
 	public static int Money;
 	public int startMoney = 400;
 
+	public static int waveNumber;
+
 	// Start is called before the first frame update
 	void Start()
 	{
 		currentHealth = maxHealth;
 		healthBar.SetMaxHealth(maxHealth);
-
 		Money = startMoney;
+		waveNumber = 0;
 	}
 
 	// Update is called once per frame
