@@ -25,10 +25,10 @@ public class GameManager : MonoBehaviour
             gameHasEnded = true;
             EndGame();
         }
-        if (Input.GetKeyDown("e"))
-        {
-            EndGame();
-        }
+        /* if (Input.GetKeyDown("e"))
+         {
+             EndGame();
+         } */
     }
 
 
